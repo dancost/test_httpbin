@@ -45,7 +45,7 @@ def test_get_args_content_format():
 
 # 4 check response format with tuple format arguments in request
 def test_get_with_tuple_args():
-    response = get_request(url=url, args=args).json()
+    response = get_request(url=url, args=tuple_args).json()
     assert response['args'] == {"fruits": "(\"apple\",\"banana\",\"cherry\")"}
 
 
