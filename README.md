@@ -39,7 +39,7 @@ When performing a ```GET``` request on the ‘/get’ route and adding a query s
 # Requirements:
 
 ```sh
-pip install allure
+pip install requirements.txt
 ```
 
 # How to run:
