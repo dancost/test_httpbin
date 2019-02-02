@@ -40,6 +40,7 @@ When performing a ```GET``` request on the ‘/get’ route and adding a query s
 
 ```sh
 pip install -r requirements.txt
+Make sure you have allure-cli for windows installed
 ```
 
 # How to run:
