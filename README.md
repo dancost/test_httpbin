@@ -22,6 +22,7 @@ When performing a ```GET``` request on the ‘/get’ route and adding a query s
 
 ![get request](https://raw.githubusercontent.com/dancost/test_httpbin/master/get.JPG)
 
+
 # Test Cases:
 
 - [Can be found in test_httpbin.py](https://github.com/dancost/test_httpbin/blob/master/test_httpbin.py)
@@ -31,6 +32,8 @@ When performing a ```GET``` request on the ‘/get’ route and adding a query s
 4. Check response format, with tuple format arguments in request, is valid
 5. Check content of route only allows permited methods - get, head, options
 6. Check forbidden method returns correct status code
+
+![test_pass]
 
 
 # Requirements:
