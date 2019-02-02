@@ -48,3 +48,7 @@ Download source
 execute run_with_allure.bat
 
 ```
+
+# Report:
+
+![report_allure](https://github.com/dancost/test_httpbin/blob/allure/allure_report.JPG)
