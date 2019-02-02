@@ -1,6 +1,5 @@
 import requests
 
-
 # query string to append to the get request URL
 args = "?fruits=oranges,bananas&drinks=fanta,nestea&sweets=mars,toffifee,snickers&guests=bob,alice,tom&place=home"
 tuple_args = '?fruits=("apple","banana","cherry")'
