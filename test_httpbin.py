@@ -48,7 +48,7 @@ def test_get_with_tuple_args():
     assert response['args'] == {"fruits": "(\"apple\",\"banana\",\"cherry\")"}
 
 
-# 5 Check content of route only allowes permited methods - get, head, options
+# 5 Check content of route only allows permited methods - get, head, options
 def test_route_allowed_methods():
     allowed_methods = ['GET', 'HEAD', 'OPTIONS']
     response = get_request(url=url, method='OPTIONS').headers['Allow']
