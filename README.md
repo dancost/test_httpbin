@@ -1,4 +1,4 @@
-# test_httpbin:
+# test_httpbin - Allure Report VERSION
 
 ### Task:
 
@@ -39,11 +39,12 @@ When performing a ```GET``` request on the ‘/get’ route and adding a query s
 # Requirements:
 
 ```sh
-pip install requests
-pip install pytest
+pip install allure
 ```
 
 # How to run:
-```py.test -vv```
-or 
-```pytest test_httpbin.py -vv```
+```
+Download source
+execute run_with_allure.bat
+
+```
