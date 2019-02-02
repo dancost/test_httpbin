@@ -33,7 +33,7 @@ When performing a ```GET``` request on the ‘/get’ route and adding a query s
 5. Check content of route only allows permited methods - get, head, options
 6. Check forbidden method returns correct status code
 
-![test_pass]
+![test_pass](https://github.com/dancost/test_httpbin/blob/master/test_pass.JPG)
 
 
 # Requirements:
