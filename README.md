@@ -36,8 +36,7 @@ When performing a ```GET``` request on the ‘/get’ route and adding a query s
 # Requirements:
 
 ```sh
-pip install requests
-pip install pytest
+pip install requirements.txt
 ```
 
 # How to run:
