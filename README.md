@@ -39,12 +39,11 @@ When performing a ```GET``` request on the ‘/get’ route and adding a query s
 # Requirements:
 
 ```sh
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 # How to run:
 ```
-Download source
 execute run_with_allure.bat
 
 ```
