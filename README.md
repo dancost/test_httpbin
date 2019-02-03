@@ -30,7 +30,7 @@ When performing a ```GET``` request on the ‘/get’ route and adding a query s
 2. Check route returns 200 status with valid arguments
 3. Check response args are correctly formatted
 4. Check response format, with tuple format arguments in request, is valid
-5. Check content of route only allows permited methods - get, head, options
+5. Check content of route allows permited methods - get, head, options
 6. Check forbidden method returns correct status code
 
 ![test_pass](https://github.com/dancost/test_httpbin/blob/master/test_pass.JPG)
