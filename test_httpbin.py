@@ -10,7 +10,8 @@ class TestGet:
     # Define get request function.
     def get_request(self, url=url, method='GET', args=''):
         if method == 'GET':
-            r = requests.get(url + args)
+            # SLL verification will be done on all GET requests
+            r = requests.get(url + args, verify=True)
 
         elif method == 'OPTIONS':
             r = requests.options(url)
@@ -20,7 +21,7 @@ class TestGet:
 
         return r
 
-    # 1. Check route returns 200 OK status with empty args
+        # 1. Check route returns 200 and certificate is valid
     def test_get_response_200(self):
         assert self.get_request(url=self.url).status_code == 200
 
