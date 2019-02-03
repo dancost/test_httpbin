@@ -7,6 +7,7 @@
   
   ### How to run:
   - Launch run_with_allure.bat
+  - pray...
   
   ### run_with_allure.bat will:
   
