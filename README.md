@@ -17,4 +17,4 @@
   - Run pytest tests
   - Generate and open Allure report
   
-  ![allure_report]("https://raw.githubusercontent.com/dancost/test_httpbin/allure/allure_report.JPG")
+  ![allure_report](https://raw.githubusercontent.com/dancost/test_httpbin/allure/allure_report.JPG)
