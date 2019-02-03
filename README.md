@@ -2,20 +2,26 @@
 
   ### Requirements:
   - Windows machine
-  - Python 3x is installed
+  - Python 3x is installed and added to PATH
   - Java is installed
+
   
   ### How to run:
+  - Open PowerShell and install Scoop
+  ```
+  iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+  ```
+  - Use Scoop to install Allure
+  ```
+  scoop install allure
+  ```
   - Launch run_with_allure.bat
   - pray...
   
   ### run_with_allure.bat will:
   
-  - Check for allure instalation.
-  - Install the Scoop command line installer for Windows
-  - Use Scoop to install allure
-  - Install python requirements.txt
-  - Run pytest tests
-  - Generate and open Allure report
+  - Install requirements.txt
+  - Run test script with --alluredir and -vv arguments
+  - Open Allure report in new browser window
   
   ![allure_report](https://raw.githubusercontent.com/dancost/test_httpbin/allure/allure_report.JPG)
