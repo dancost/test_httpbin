@@ -44,7 +44,7 @@ class TestGet:
         response = self.get_request(url=self.url, args=self.tuple_args).json()
         assert response['args'] == {"fruits": "(\"apple\",\"banana\",\"cherry\")"}
 
-    # 5. Check content of route only allows permited methods - get, head, options
+    # 5. Check route allows permitted methods - get, head, options
     def test_route_allowed_methods(self):
         allowed_methods = ['GET', 'HEAD', 'OPTIONS']
         response = self.get_request(url=self.url, method='OPTIONS').headers['Allow']
