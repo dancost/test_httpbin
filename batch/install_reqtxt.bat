@@ -1,4 +1,5 @@
 echo Installing python prequisites
+cd ./
 pip install -r requirements.txt
 
 echo Running tests
