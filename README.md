@@ -7,11 +7,13 @@ https://httpbin.org/
 
 - Please go to the following link: https://httpbin.org/get
 
-- Make a short description of the functionality of this endpoint Play around with 'args' section and create  3-4 automated test cases using python+pytest 
+- Make a short description of the functionality of this endpoint 
+- Play around with 'args' section and create  3-4 automated test cases using python+pytest 
 
 ### ‘/get’ endpoint functionality:
 
-The ‘/get’ endpoint’s purpose is to return sorted data in multidictionary format. 
+The ‘/get’ endpoint’s purpose returns accepted headers in json format ("Accept", "Accept-Endcoding", "Accept-Language" etc).
+It also returns 'args' data in multidictionary format via json response.
 
 Request methods allowed on this route are ```HEAD```, ```OPTIONS``` and ```GET```.
 
